@@ -1,0 +1,47 @@
+/* src/pages/Home.css */
+
+/* Set up padding and alignment for the page */
+.home-page {
+    padding: 16px;
+    background-color: green;
+}
+
+/* Customize the header toolbar */
+.home-header {
+    --background: #007bff;
+    color: rgb(250, 241, 241);
+}
+
+/* Style the list of chat items */
+.chat-list {
+    background-color: pink;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(180, 4, 4, 0.1);
+    overflow: hidden;
+}
+
+/* Individual chat item styling */
+.chat-item {
+    padding: 12px;
+    font-size: 16px;
+    border-bottom: 1px solid yellow;
+    transition: background-color 0.2s ease-in;
+}
+
+/* Change background color on hover */
+.chat-item:hover {
+    background-color: green;
+}
+
+/* Remove the border for the last item */
+.chat-item:last-child {
+    border-bottom: none;
+}
+
+/* Button styling for new chat */
+.new-chat-button {
+    margin-top: 20px;
+    --background: #007bff;
+    --border-radius: 20px;
+    --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
